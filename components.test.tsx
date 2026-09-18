@@ -3,6 +3,7 @@ import { describe, it, expect } from "vitest";
 import Dashboard from "@/app/dashboard/page";
 import Navbar from "@/components/Navbar";
 import Projects from "@/app/projects/page";
+import React from "react";
 
 describe("Dashboard", () => {
   it("renders the Dashboard heading", () => {
